@@ -66,6 +66,8 @@ class _DisplayScreenState extends State<DisplayScreen> {
         break;
       }
     }
+
+    // hier wieder beispielhaft der Zugriff auf die Shared Preferences
     SharedPreferencesApi().saveList(aufgabe!);
   }
 
